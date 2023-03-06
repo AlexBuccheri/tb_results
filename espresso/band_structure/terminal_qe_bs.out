@@ -1,0 +1,137 @@
+/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/pymatgen/io/cif.py:1164: UserWarning: Issues encountered while parsing CIF: Some fractional co-ordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: %s" % "\n".join(self.warnings))
+espresso/band_structure.py:65: UserWarning: Number of requested bands 12 is <= the number of occupied states 4for silicon.
+ Updating n_bands to 14 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 22 is <= the number of occupied states 14for germanium.
+ Updating n_bands to 24 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 12 is <= the number of occupied states 4for diamond.
+ Updating n_bands to 14 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 34 is <= the number of occupied states 26for zinc.
+ Updating n_bands to 36 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 34 is <= the number of occupied states 26for mos2.
+ Updating n_bands to 36 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 34 is <= the number of occupied states 26for ws2.
+ Updating n_bands to 36 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 16 is <= the number of occupied states 8for bn.
+ Updating n_bands to 18 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 12 is <= the number of occupied states 4for bn.
+ Updating n_bands to 14 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 16 is <= the number of occupied states 8for mgo.
+ Updating n_bands to 18 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 16 is <= the number of occupied states 8for nacl.
+ Updating n_bands to 18 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 20 is <= the number of occupied states 12for zro2.
+ Updating n_bands to 22 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 13 is <= the number of occupied states 10for pbs.
+ Updating n_bands to 20 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 32 is <= the number of occupied states 24for tio2.
+ Updating n_bands to 34 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 26 is <= the number of occupied states 18for cdse.
+ Updating n_bands to 28 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 20 is <= the number of occupied states 12for gan.
+ Updating n_bands to 22 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 16 is <= the number of occupied states 8for graphite.
+ Updating n_bands to 18 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 20 is <= the number of occupied states 12for gaas.
+ Updating n_bands to 22 such that a gap can be observed.
+  warnings.warn(message)
+espresso/band_structure.py:65: UserWarning: Number of requested bands 72 is <= the number of occupied states 64for wo3.
+ Updating n_bands to 74 such that a gap can be observed.
+  warnings.warn(message)
+Espresso band structure calculation
+Running in /users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_bands
+NOTE. It is essential to set `npoints` such that the k-path is consistent with other calculations.
+Producing QE band structures for materials listed as converged: ['silicon', 'germanium', 'diamond', 'zinc_oxide', 'mos2', 'ws2', 'bn_hex', 'bn_cubic', 'mgo', 'nacl', 'zro2', 'pbs', 'tio2_rutile', 'tio2_ana', 'cdse', 'gan', 'graphite', 'gaas', 'wo3_monoclinic'] 
+
+Running converged SCF for silicon
+Running band structure for silicon using 100 k-points and 12 bands.
+Fundamental gap: 0.46470000000000056 (eV) from k = [0. 0. 0.] to [0.43333333 0.         0.43333333]
+Direct gap: 2.5211000000000006 (eV) at k = [0. 0. 0.]
+Running converged SCF for germanium
+Running band structure for germanium using 100 k-points and 22 bands.
+Fundamental gap: 0.012699999999998823 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 0.012699999999998823 (eV) at k = [0. 0. 0.]
+Running converged SCF for diamond
+Running band structure for diamond using 100 k-points and 12 bands.
+Fundamental gap: 4.012700000000001 (eV) from k = [0. 0. 0.] to [0.36666667 0.         0.36666667]
+Direct gap: 5.538300000000001 (eV) at k = [0. 0. 0.]
+Running converged SCF for zinc_oxide
+Running band structure for zinc_oxide using 100 k-points and 34 bands.
+Fundamental gap: 0.6508000000000012 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 0.6508000000000012 (eV) at k = [0. 0. 0.]
+Running converged SCF for mos2
+Running band structure for mos2 using 100 k-points and 34 bands.
+Fundamental gap: 1.4377000000000004 (eV) from k = [0. 0. 0.] to [0.33333333 0.33333333 0.        ]
+Direct gap: 2.5392 (eV) at k = [0. 0. 0.]
+Running converged SCF for ws2
+Running band structure for ws2 using 100 k-points and 34 bands.
+Fundamental gap: 1.5355999999999987 (eV) from k = [0. 0. 0.] to [0.33333333 0.33333333 0.        ]
+Direct gap: 2.6018999999999988 (eV) at k = [0. 0. 0.]
+Running converged SCF for bn_hex
+Running band structure for bn_hex using 100 k-points and 16 bands.
+Fundamental gap: 3.4947 (eV) from k = [0.  0.  0.5] to [0.5 0.  0. ]
+Direct gap: 3.5412999999999997 (eV) at k = [0. 0. 0.]
+Running converged SCF for bn_cubic
+Running band structure for bn_cubic using 100 k-points and 12 bands.
+Fundamental gap: 4.2759 (eV) from k = [0. 0. 0.] to [0.5 0.  0.5]
+Direct gap: 8.7251 (eV) at k = [0. 0. 0.]
+Running converged SCF for mgo
+Running band structure for mgo using 100 k-points and 16 bands.
+Fundamental gap: 4.3634 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 4.3634 (eV) at k = [0. 0. 0.]
+Running converged SCF for nacl
+Running band structure for nacl using 100 k-points and 16 bands.
+Fundamental gap: 4.8366999999999996 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 4.8366999999999996 (eV) at k = [0. 0. 0.]
+Running converged SCF for zro2
+Running band structure for zro2 using 100 k-points and 20 bands.
+Fundamental gap: 3.2014999999999993 (eV) from k = [0.5 0.  0.5] to [0. 0. 0.]
+Direct gap: 3.7292000000000005 (eV) at k = [0. 0. 0.]
+Running converged SCF for pbs
+Running band structure for pbs using 100 k-points and 13 bands.
+Fundamental gap: 0.38709999999999933 (eV) from k = [0.5 0.5 0.5] to [0.5 0.5 0.5]
+Direct gap: 7.0501000000000005 (eV) at k = [0. 0. 0.]
+Running converged SCF for tio2_rutile
+Running band structure for tio2_rutile using 100 k-points and 32 bands.
+Fundamental gap: 1.7792999999999992 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 1.7792999999999992 (eV) at k = [0. 0. 0.]
+Running converged SCF for tio2_ana
+Running band structure for tio2_ana using 100 k-points and 32 bands.
+Fundamental gap: -0.8875999999999991 (eV) from k = [0.  0.  0.4] to [0. 0. 0.]
+Direct gap: 0.013900000000001356 (eV) at k = [0. 0. 0.]
+Running converged SCF for cdse
+Running band structure for cdse using 100 k-points and 26 bands.
+Fundamental gap: 0.38590000000000035 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 0.38590000000000035 (eV) at k = [0. 0. 0.]
+Running converged SCF for gan
+Running band structure for gan using 100 k-points and 20 bands.
+Fundamental gap: 1.5257000000000005 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 1.5257000000000005 (eV) at k = [0. 0. 0.]
+Running converged SCF for graphite
+Running band structure for graphite using 100 k-points and 16 bands.
+Fundamental gap: -0.0007999999999999119 (eV) from k = [0.33333333 0.33333333 0.375     ] to [0.33333333 0.33333333 0.        ]
+Direct gap: 6.051200000000001 (eV) at k = [0. 0. 0.]
+Running converged SCF for gaas
+Running band structure for gaas using 100 k-points and 20 bands.
+Fundamental gap: 0.08309999999999995 (eV) from k = [0. 0. 0.] to [0. 0. 0.]
+Direct gap: 0.08309999999999995 (eV) at k = [0. 0. 0.]
+Running converged SCF for wo3_monoclinic
+Running band structure for wo3_monoclinic using 100 k-points and 72 bands.
+Fundamental gap: 0.9859999999999998 (eV) from k = [0. 0. 0.] to [ 0.      0.     -0.0625]
+Direct gap: 0.9860999999999995 (eV) at k = [0. 0. 0.]

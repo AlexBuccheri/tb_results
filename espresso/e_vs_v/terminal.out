@@ -1,0 +1,67 @@
+Espresso E vs V calculation. Running in /users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_e_vs_v
+Materials listed as converged: ['silicon', 'germanium', 'diamond', 'zinc_oxide', 'mos2', 'ws2', 'bn_hex', 'bn_cubic', 'mgo', 'nacl', 'zro2', 'pbs', 'tio2_rutile', 'tio2_ana', 'cdse', 'gan', 'graphite', 'gaas', 'wo3_monoclinic'] 
+
+Running E vs V for silicon
+/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/pymatgen/io/cif.py:1164: UserWarning: Issues encountered while parsing CIF: Some fractional co-ordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: %s" % "\n".join(self.warnings))
+Running E vs V for germanium
+Running E vs V for diamond
+Running E vs V for zinc_oxide
+Running E vs V for mos2
+Running E vs V for ws2
+Running E vs V for bn_hex
+Running E vs V for bn_cubic
+Running E vs V for mgo
+Running E vs V for nacl
+Running E vs V for zro2
+Running E vs V for pbs
+Running E vs V for tio2_rutile
+Running E vs V for tio2_ana
+Running E vs V for cdse
+Running E vs V for gan
+Running E vs V for graphite
+Running E vs V for gaas
+Running E vs V for wo3_monoclinic
+/bin/sh: line 1: 95505 Killed                  /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95511 Killed                  /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 120326 Killed                  /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 143332 Killed                  /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95508 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95510 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95507 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95512 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95509 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 164900 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+/bin/sh: line 1: 95506 Terminated              /users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/beegfs2018/users/sol/abuccheri/packages/tb_benchmarking/delta_factor/energy_volume.py", line 48, in run_ase_calculator
+    atoms.get_potential_energy()
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/ase/atoms.py", line 731, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/ase/calculators/calculator.py", line 938, in calculate
+    raise CalculationFailed(msg)
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "/users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo" failed in /users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_e_vs_v/wo3_monoclinic/6 with error code 137
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "espresso/energy_volume.py", line 85, in <module>
+    results = pooled_runner(calculators, run_ase_calculator, n_processes=n_processes)
+  File "/mnt/beegfs2018/users/sol/abuccheri/packages/tb_benchmarking/delta_factor/energy_volume.py", line 40, in pooled_runner
+    results = p.map(run_func, calculations)
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+ase.calculators.calculator.CalculationFailed: Calculator "espresso" failed with command "/users/sol/abuccheri/packages/qe-7.1/build/bin/pw.x -in espresso.pwi > espresso.pwo" failed in /users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_e_vs_v/wo3_monoclinic/6 with error code 137

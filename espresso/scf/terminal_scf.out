@@ -1,0 +1,108 @@
+nohup: ignoring input
+/users/sol/abuccheri/packages/anaconda3/envs/qe7/lib/python3.7/site-packages/pymatgen/io/cif.py:1164: UserWarning: Issues encountered while parsing CIF: Some fractional co-ordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: %s" % "\n".join(self.warnings))
+All materials:  ['silicon', 'germanium', 'diamond', 'zinc_oxide', 'mos2', 'ws2', 'bn_hex', 'bn_cubic', 'mgo', 'nacl', 'zro2', 'pbs', 'tio2_rutile', 'tio2_ana', 'cdse', 'gan', 'graphite', 'gaas', 'wo3_monoclinic']
+silicon
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [4, 4, 4], 'ecut': 120.0}, -259.9036557544338, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -260.07691112177594, 0.173255367342108, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -260.0981644466677, 0.02125332489174525, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -260.10150695851155, 0.0033425118438685786, 0.001
+
+germanium
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -5801.179460045997, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -5801.215296230191, 0.03583618419361301, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -5801.223608903538, 0.008312673347063537, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [12, 12, 12], 'ecut': 120.0}, -5801.226037792757, 0.002428889219117991, 0.001
+
+diamond
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [4, 4, 4], 'ecut': 120.0}, -311.97733227243725, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -312.1102006216976, 0.13286834926032043, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -312.1200315548921, 0.009830933194507452, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -312.1191580690762, 0.0008734858158732095, 0.001
+
+zinc_oxide
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [8, 8, 4], 'ecut': 120.0}, -13423.893300214146, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [10, 10, 6], 'ecut': 120.0}, -13423.89416921008, 0.0008689959340699716, 0.001
+
+mos2
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [10, 10, 2], 'ecut': 120.0}, -5103.141939331409, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [12, 12, 4], 'ecut': 120.0}, -5103.141133193799, 0.0008061376101977658, 0.001
+
+ws2
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [10, 10, 2], 'ecut': 120.0}, -5639.154809775823, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [12, 12, 4], 'ecut': 120.0}, -5639.149744238376, 0.005065537447080715, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [14, 14, 6], 'ecut': 120.0}, -5639.150576498927, 0.0008322605508510605, 0.001
+
+bn_hex
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [8, 8, 2], 'ecut': 120.0}, -719.9890583298154, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [10, 10, 4], 'ecut': 120.0}, -719.9920700871394, 0.0030117573239749618, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [12, 12, 6], 'ecut': 120.0}, -719.9910438093342, 0.0010262778051810528, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [14, 14, 8], 'ecut': 120.0}, -719.991073197642, 2.938830778020929e-05, 0.001
+
+bn_cubic
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [4, 4, 4], 'ecut': 120.0}, -361.57048377064444, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -361.66726858412113, 0.09678481347668821, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -361.67136321895407, 0.004094634832938482, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -361.67150009227663, 0.00013687332256040463, 0.001
+
+mgo
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -2142.121722626587, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -2142.1242730146896, 0.00255038810246333, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -2142.123859401468, 0.00041361322155353264, 0.001
+
+nacl
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [4, 4, 4], 'ecut': 120.0}, -1749.92034875218, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -1749.9232715282387, 0.00292277605876734, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -1749.9228093426755, 0.00046218556326493854, 0.001
+
+zro2
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [4, 4, 4], 'ecut': 120.0}, -2224.634854355426, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -2224.6309439417446, 0.003910413681296632, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -2224.6365045905445, 0.005560648799928458, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -2224.636852352187, 0.0003477616423879226, 0.001
+
+pbs
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -2556.7880930247948, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -2556.7877851278477, 0.00030789694710620097, 0.001
+
+tio2_rutile
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [8, 8, 16], 'ecut': 120.0}, -4996.947060439642, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [10, 10, 18], 'ecut': 120.0}, -4996.950749760729, 0.003689321087222197, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [12, 12, 20], 'ecut': 120.0}, -4996.952625986492, 0.0018762257632261026, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [14, 14, 22], 'ecut': 120.0}, -4996.952357273956, 0.0002687125361262588, 0.001
+
+tio2_ana
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -4933.834766925205, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -4933.832701852353, 0.0020650728520195116, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [12, 12, 12], 'ecut': 120.0}, -4933.83252171291, 0.00018013944281847216, 0.001
+
+cdse
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [8, 8, 4], 'ecut': 120.0}, -4294.969877330573, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [10, 10, 6], 'ecut': 120.0}, -4294.9734084173915, 0.0035310868188389577, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [12, 12, 8], 'ecut': 120.0}, -4294.972021860703, 0.001386556688885321, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [14, 14, 10], 'ecut': 120.0}, -4294.971840904917, 0.0001809557852539001, 0.001
+
+gan
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [4, 4, 4], 'ecut': 120.0}, -5879.568760202311, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -5880.209354563208, 0.6405943608970119, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -5879.844543892511, 0.36481067069689743, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -5880.264404986322, 0.4198610938110505, 0.001
+
+graphite
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [16, 16, 4], 'ecut': 120.0}, -623.8479717899523, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [18, 18, 6], 'ecut': 120.0}, -623.8422710024627, 0.005700787489672621, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [20, 20, 8], 'ecut': 120.0}, -623.8463838689311, 0.0041128664684038085, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [22, 22, 10], 'ecut': 120.0}, -623.8465616954048, 0.00017782647375952365, 0.001
+
+gaas
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -6136.4861274112, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -6136.258384352414, 0.22774305878556333, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -6136.471567137358, 0.21318278494345577, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [12, 12, 12], 'ecut': 120.0}, -6136.494487976604, 0.022920839246580726, 0.001
+
+wo3_monoclinic
+Iteration, Input, output, diff, target diff: 0 , {'k_grid': [6, 6, 6], 'ecut': 120.0}, -13872.511907399996, nan, 0.001
+Iteration, Input, output, diff, target diff: 1 , {'k_grid': [8, 8, 8], 'ecut': 120.0}, -13872.487320406964, 0.024586993031334714, 0.001
+Iteration, Input, output, diff, target diff: 2 , {'k_grid': [10, 10, 10], 'ecut': 120.0}, -13872.490963604734, 0.0036431977696338436, 0.001
+Iteration, Input, output, diff, target diff: 3 , {'k_grid': [12, 12, 12], 'ecut': 120.0}, -13872.492290568467, 0.0013269637329358375, 0.001
+

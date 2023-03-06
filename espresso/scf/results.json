@@ -1,0 +1,1055 @@
+{
+    "silicon": {
+        "converged": true,
+        "4_4_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/silicon/4_4_4_120.0",
+            "input": {
+                "k_grid": [
+                    4,
+                    4,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -259.9036557544338,
+                "unit": "eV"
+            }
+        },
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/silicon/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -260.07691112177594,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/silicon/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -260.0981644466677,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/silicon/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -260.10150695851155,
+                "unit": "eV"
+            }
+        },
+        "12_12_12_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/silicon/12_12_12_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    12
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -260.1021594877908,
+                "unit": "eV"
+            }
+        }
+    },
+    "germanium": {
+        "converged": true,
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/germanium/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5801.179460045997,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/germanium/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5801.215296230191,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/germanium/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5801.223608903538,
+                "unit": "eV"
+            }
+        },
+        "12_12_12_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/germanium/12_12_12_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    12
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5801.226037792757,
+                "unit": "eV"
+            }
+        },
+        "14_14_14_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/germanium/14_14_14_120.0",
+            "input": {
+                "k_grid": [
+                    14,
+                    14,
+                    14
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5801.226963796566,
+                "unit": "eV"
+            }
+        }
+    },
+    "diamond": {
+        "converged": true,
+        "4_4_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/diamond/4_4_4_120.0",
+            "input": {
+                "k_grid": [
+                    4,
+                    4,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -311.97733227243725,
+                "unit": "eV"
+            }
+        },
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/diamond/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -312.1102006216976,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/diamond/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -312.1200315548921,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/diamond/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -312.1191580690762,
+                "unit": "eV"
+            }
+        }
+    },
+    "zinc_oxide": {
+        "converged": true,
+        "8_8_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/zinc_oxide/8_8_4_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -13423.893300214146,
+                "unit": "eV"
+            }
+        },
+        "10_10_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/zinc_oxide/10_10_6_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -13423.89416921008,
+                "unit": "eV"
+            }
+        }
+    },
+    "mos2": {
+        "converged": true,
+        "10_10_2_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/mos2/10_10_2_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    2
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5103.141939331409,
+                "unit": "eV"
+            }
+        },
+        "12_12_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/mos2/12_12_4_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5103.141133193799,
+                "unit": "eV"
+            }
+        }
+    },
+    "ws2": {
+        "converged": true,
+        "10_10_2_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/ws2/10_10_2_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    2
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5639.154809775823,
+                "unit": "eV"
+            }
+        },
+        "12_12_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/ws2/12_12_4_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5639.149744238376,
+                "unit": "eV"
+            }
+        },
+        "14_14_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/ws2/14_14_6_120.0",
+            "input": {
+                "k_grid": [
+                    14,
+                    14,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5639.150576498927,
+                "unit": "eV"
+            }
+        }
+    },
+    "bn_hex": {
+        "converged": true,
+        "8_8_2_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_hex/8_8_2_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    2
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -719.9890583298154,
+                "unit": "eV"
+            }
+        },
+        "10_10_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_hex/10_10_4_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -719.9920700871394,
+                "unit": "eV"
+            }
+        },
+        "12_12_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_hex/12_12_6_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -719.9910438093342,
+                "unit": "eV"
+            }
+        },
+        "14_14_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_hex/14_14_8_120.0",
+            "input": {
+                "k_grid": [
+                    14,
+                    14,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -719.991073197642,
+                "unit": "eV"
+            }
+        }
+    },
+    "bn_cubic": {
+        "converged": true,
+        "4_4_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_cubic/4_4_4_120.0",
+            "input": {
+                "k_grid": [
+                    4,
+                    4,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -361.57048377064444,
+                "unit": "eV"
+            }
+        },
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_cubic/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -361.66726858412113,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_cubic/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -361.67136321895407,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/bn_cubic/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -361.67150009227663,
+                "unit": "eV"
+            }
+        }
+    },
+    "mgo": {
+        "converged": true,
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/mgo/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2142.121722626587,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/mgo/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2142.1242730146896,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/mgo/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2142.123859401468,
+                "unit": "eV"
+            }
+        }
+    },
+    "copper": {
+        "converged": "Not Run"
+    },
+    "nacl": {
+        "converged": true,
+        "4_4_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/nacl/4_4_4_120.0",
+            "input": {
+                "k_grid": [
+                    4,
+                    4,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -1749.92034875218,
+                "unit": "eV"
+            }
+        },
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/nacl/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -1749.9232715282387,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/nacl/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -1749.9228093426755,
+                "unit": "eV"
+            }
+        }
+    },
+    "zro2": {
+        "converged": true,
+        "4_4_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/zro2/4_4_4_120.0",
+            "input": {
+                "k_grid": [
+                    4,
+                    4,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2224.634854355426,
+                "unit": "eV"
+            }
+        },
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/zro2/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2224.6309439417446,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/zro2/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2224.6365045905445,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/zro2/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2224.636852352187,
+                "unit": "eV"
+            }
+        }
+    },
+    "pbs": {
+        "converged": true,
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/pbs/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2556.7880930247948,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/pbs/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -2556.7877851278477,
+                "unit": "eV"
+            }
+        }
+    },
+    "tio2_rutile": {
+        "converged": true,
+        "8_8_16_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_rutile/8_8_16_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    16
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4996.947060439642,
+                "unit": "eV"
+            }
+        },
+        "10_10_18_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_rutile/10_10_18_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    18
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4996.950749760729,
+                "unit": "eV"
+            }
+        },
+        "12_12_20_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_rutile/12_12_20_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    20
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4996.952625986492,
+                "unit": "eV"
+            }
+        },
+        "14_14_22_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_rutile/14_14_22_120.0",
+            "input": {
+                "k_grid": [
+                    14,
+                    14,
+                    22
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4996.952357273956,
+                "unit": "eV"
+            }
+        }
+    },
+    "tio2_ana": {
+        "converged": true,
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_ana/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4933.834766925205,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_ana/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4933.832701852353,
+                "unit": "eV"
+            }
+        },
+        "12_12_12_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/tio2_ana/12_12_12_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    12
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4933.83252171291,
+                "unit": "eV"
+            }
+        }
+    },
+    "cdse": {
+        "converged": true,
+        "8_8_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/cdse/8_8_4_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4294.969877330573,
+                "unit": "eV"
+            }
+        },
+        "10_10_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/cdse/10_10_6_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4294.9734084173915,
+                "unit": "eV"
+            }
+        },
+        "12_12_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/cdse/12_12_8_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4294.972021860703,
+                "unit": "eV"
+            }
+        },
+        "14_14_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/cdse/14_14_10_120.0",
+            "input": {
+                "k_grid": [
+                    14,
+                    14,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -4294.971840904917,
+                "unit": "eV"
+            }
+        }
+    },
+    "gan": {
+        "converged": true,
+        "4_4_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gan/4_4_4_120.0",
+            "input": {
+                "k_grid": [
+                    4,
+                    4,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5879.568760202311,
+                "unit": "eV"
+            }
+        },
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gan/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5880.209354563208,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gan/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -5879.844543892511,
+                "unit": "eV"
+            }
+        }
+    },
+    "graphite": {
+        "converged": true,
+        "16_16_4_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/graphite/16_16_4_120.0",
+            "input": {
+                "k_grid": [
+                    16,
+                    16,
+                    4
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -623.8479717899523,
+                "unit": "eV"
+            }
+        },
+        "18_18_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/graphite/18_18_6_120.0",
+            "input": {
+                "k_grid": [
+                    18,
+                    18,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -623.8422710024627,
+                "unit": "eV"
+            }
+        },
+        "20_20_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/graphite/20_20_8_120.0",
+            "input": {
+                "k_grid": [
+                    20,
+                    20,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -623.8463838689311,
+                "unit": "eV"
+            }
+        },
+        "22_22_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/graphite/22_22_10_120.0",
+            "input": {
+                "k_grid": [
+                    22,
+                    22,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -623.8465616954048,
+                "unit": "eV"
+            }
+        }
+    },
+    "gaas": {
+        "converged": true,
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gaas/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -6136.4861274112,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gaas/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -6136.258384352414,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gaas/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -6136.471567137358,
+                "unit": "eV"
+            }
+        },
+        "12_12_12_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/gaas/12_12_12_120.0",
+            "input": {
+                "k_grid": [
+                    12,
+                    12,
+                    12
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -6136.494487976604,
+                "unit": "eV"
+            }
+        }
+    },
+    "wo3_monoclinic": {
+        "converged": true,
+        "6_6_6_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/wo3_monoclinic/6_6_6_120.0",
+            "input": {
+                "k_grid": [
+                    6,
+                    6,
+                    6
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -13872.511907399996,
+                "unit": "eV"
+            }
+        },
+        "8_8_8_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/wo3_monoclinic/8_8_8_120.0",
+            "input": {
+                "k_grid": [
+                    8,
+                    8,
+                    8
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -13872.487320406964,
+                "unit": "eV"
+            }
+        },
+        "10_10_10_120.0": {
+            "directory": "/users/sol/abuccheri/packages/tb_benchmarking/outputs/espresso_scf/wo3_monoclinic/10_10_10_120.0",
+            "input": {
+                "k_grid": [
+                    10,
+                    10,
+                    10
+                ],
+                "ecut": 120.0
+            },
+            "total_energy": {
+                "value": -13872.490963604734,
+                "unit": "eV"
+            }
+        }
+    },
+    "pbte": {
+        "converged": "Not Run"
+    }
+}
