@@ -1,0 +1,1 @@
+for dir in acetic adaman ammonia anthracene benzene CO2 cyanamide cytosine ethcar formamide hexamine hexdio imdazole naph oxaca oxacb pyrazine pyrazole succinic triazine trioxane uracil urea; do cp "$dir/e_vs_v.dat" "collated/e_vs_v_$dir.dat"; done
